@@ -1,0 +1,14 @@
+mu              = 398600;
+Re              = 6378.145;
+h0              = 500;
+hf              = 35786;
+inc0            = 28.5*pi/180;
+incf            = 0*pi/180;
+a0              = h0+Re;
+af              = hf+Re;
+Omega0          = 45*pi/180;
+Omegaf          = 75*pi/180;
+Omega0          = 45*pi/180;
+Omegaf          = 45*pi/180;
+animateTransfer = false;
+hohmannWithPlaneChange(a0,af,inc0,incf,Omega0,Omegaf,mu,animateTransfer);
